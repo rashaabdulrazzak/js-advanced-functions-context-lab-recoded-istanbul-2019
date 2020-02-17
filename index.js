@@ -40,6 +40,15 @@ function hoursWorkedOnDate(date){
 function wagesEarnedOnDate(date){
   return hoursWorkedOnDate.call(this, date) * this.payPerHour;
 }
+<<<<<<< HEAD
+=======
+function allWagesFor(){
+  
+}
+function findEmployeebyFirstName(srcArray,string){
+  return srcArray.find(({firstName}) => firstName  === string )
+}
+>>>>>>> 0c796f77ed0e06f11e12fd45a87ca55f176f4d47
 
 function findEmployeebyFirstName(srcArray,string){
   return srcArray.find(({firstName}) => firstName  === string )
